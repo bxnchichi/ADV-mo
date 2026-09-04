@@ -1,0 +1,22 @@
+/home/bxnchxchi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/package_try/package_try.egg-info/PKG-INFO
+writing dependency_links to ../../build/package_try/package_try.egg-info/dependency_links.txt
+writing requirements to ../../build/package_try/package_try.egg-info/requires.txt
+writing top-level names to ../../build/package_try/package_try.egg-info/top_level.txt
+reading manifest file '../../build/package_try/package_try.egg-info/SOURCES.txt'
+writing manifest file '../../build/package_try/package_try.egg-info/SOURCES.txt'
+running build
+running build_py
+copying package_try/__init__.py -> /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try
+running install
+running install_lib
+running install_data
+copying resource/package_try -> /home/bxnchxchi/4sem1/ADV-mo/install/package_try/share/ament_index/resource_index/packages
+copying package.xml -> /home/bxnchxchi/4sem1/ADV-mo/install/package_try/share/package_try
+running install_egg_info
+removing '/home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/package_try/package_try.egg-info to /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/bxnchxchi/4sem1/ADV-mo/build/package_try/install.log'

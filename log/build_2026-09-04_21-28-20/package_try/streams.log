@@ -1,0 +1,42 @@
+[0.871s] Invoking command in '/home/bxnchxchi/4sem1/ADV-mo/src/package_try': PYTHONPATH=/home/bxnchxchi/4sem1/ADV-mo/build/package_try/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/package_try build --build-base /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build install --record /home/bxnchxchi/4sem1/ADV-mo/build/package_try/install.log --single-version-externally-managed install_data
+[1.039s] /home/bxnchxchi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.039s]   warnings.warn(msg)
+[1.153s] running egg_info
+[1.172s] creating ../../build/package_try/package_try.egg-info
+[1.172s] writing ../../build/package_try/package_try.egg-info/PKG-INFO
+[1.173s] writing dependency_links to ../../build/package_try/package_try.egg-info/dependency_links.txt
+[1.173s] writing requirements to ../../build/package_try/package_try.egg-info/requires.txt
+[1.173s] writing top-level names to ../../build/package_try/package_try.egg-info/top_level.txt
+[1.174s] writing manifest file '../../build/package_try/package_try.egg-info/SOURCES.txt'
+[1.211s] reading manifest file '../../build/package_try/package_try.egg-info/SOURCES.txt'
+[1.212s] writing manifest file '../../build/package_try/package_try.egg-info/SOURCES.txt'
+[1.212s] running build
+[1.212s] running build_py
+[1.213s] creating /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try
+[1.213s] copying package_try/listener.py -> /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try
+[1.213s] copying package_try/turtle_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try
+[1.213s] copying package_try/talker.py -> /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try
+[1.214s] copying package_try/__init__.py -> /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try
+[1.214s] copying package_try/turtle_circle.py -> /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try
+[1.214s] running install
+[1.219s] running install_lib
+[1.241s] creating /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try
+[1.241s] copying /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try/listener.py -> /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try
+[1.241s] copying /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try/turtle_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try
+[1.241s] copying /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try/talker.py -> /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try
+[1.241s] copying /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try/__init__.py -> /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try
+[1.241s] copying /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build/lib/package_try/turtle_circle.py -> /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try
+[1.242s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try/listener.py to listener.cpython-310.pyc
+[1.243s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try/turtle_writer.py to turtle_writer.cpython-310.pyc
+[1.243s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try/talker.py to talker.cpython-310.pyc
+[1.244s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try/__init__.py to __init__.cpython-310.pyc
+[1.244s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try/turtle_circle.py to turtle_circle.cpython-310.pyc
+[1.244s] running install_data
+[1.245s] creating /home/bxnchxchi/4sem1/ADV-mo/install/package_try/share/ament_index/resource_index/packages
+[1.245s] copying resource/package_try -> /home/bxnchxchi/4sem1/ADV-mo/install/package_try/share/ament_index/resource_index/packages
+[1.245s] copying package.xml -> /home/bxnchxchi/4sem1/ADV-mo/install/package_try/share/package_try
+[1.246s] running install_egg_info
+[1.266s] Copying ../../build/package_try/package_try.egg-info to /home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages/package_try-0.0.0-py3.10.egg-info
+[1.267s] running install_scripts
+[1.414s] writing list of installed files to '/home/bxnchxchi/4sem1/ADV-mo/build/package_try/install.log'
+[1.445s] Invoked command in '/home/bxnchxchi/4sem1/ADV-mo/src/package_try' returned '0': PYTHONPATH=/home/bxnchxchi/4sem1/ADV-mo/build/package_try/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bxnchxchi/4sem1/ADV-mo/install/package_try/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/package_try build --build-base /home/bxnchxchi/4sem1/ADV-mo/build/package_try/build install --record /home/bxnchxchi/4sem1/ADV-mo/build/package_try/install.log --single-version-externally-managed install_data
