@@ -21,15 +21,15 @@ class Talker(Node):
         super().__init__('talker')
 
         # Publisher: message type, topic name, queue size.
-        self.publisher_ = self.create_publisher(String, 'chatter', 10)
+        self.publisher_ = self.create_publisher(String, 'introduce', 10)
 
         # Timer: call self.timer_callback every 0.5 seconds.
-        self.timer = self.create_timer(0.1, self.timer_callback)
+        self.timer = self.create_timer(1, self.timer_callback)
         self.count = 0
 
     def timer_callback(self):
         msg = String()
-        msg.data = f'Hello from Python! count = {self.count}'
+        msg.data =f'Ben srisoontorn ID: 6638112821'
         self.publisher_.publish(msg)
         # get_logger() prints with a timestamp - always prefer it over print().
         self.get_logger().info(f'Publishing: "{msg.data}"')

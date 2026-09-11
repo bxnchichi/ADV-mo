@@ -23,6 +23,7 @@ setup(
             'talker = turtlePack.talker:main',
             'listener = turtlePack.listener:main',
             'turtle_circle = turtlePack.turtle_circle:main',
+            'turtle_writer = turtlePack.turtle_writer:main'
         ],
     },
 )

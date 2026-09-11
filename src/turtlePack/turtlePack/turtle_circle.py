@@ -60,6 +60,7 @@ if __name__ == '__main__':
     main()
 
 
-# BONUS (if you finish early): make the turtle drive a figure-eight.
+# B ONUS (if you finish early): make the turtle drive a figure-eight.
 # Hint: count timer ticks (self.tick += 1) and flip the sign of
 # msg.angular.z every few seconds, e.g. when (self.tick // 50) % 2 changes.
+ 

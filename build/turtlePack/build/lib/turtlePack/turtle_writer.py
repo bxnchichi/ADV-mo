@@ -25,10 +25,38 @@ from turtlesim.msg import Pose
 # The turtle visits them in order, drawing as it goes.
 #
 # Sample: the letter "L" (three corner points):
+# WAYPOINTS = [
+#     (5.5, 5.5),   # top of the vertical stroke
+#     (5.5, 3.0),   # bottom corner
+#     (7.0, 3.0),   # end of the horizontal stroke
+# ]
+
 WAYPOINTS = [
-    (2.0, 9.0),   # top of the vertical stroke
-    (2.0, 5.0),   # bottom corner
-    (4.0, 5.0),   # end of the horizontal stroke
+    # B
+    (5.5, 5.5), 
+    (5.5, 6.5),
+    (4.25, 6.5),
+    (5.25, 6.5),
+    (5.25, 7.5),
+    (4.25, 7.5),
+    (4.25, 5.5),
+    (6, 5.5),
+
+    # E
+    (6, 7.5),
+    (7, 7.5),
+    (6, 7.5),
+    (6, 6.5),
+    (7, 6.5),
+    (6, 6.5),
+    (6, 5.5),
+    (7.5, 5.5),
+
+    # N
+    (7.5, 7.5),
+    (8.5, 5.5),
+    (8.5, 7.5)
+
 ]
 # HOMEWORK (TODO 4): replace this list with the strokes of your own
 # 3 initials. Sketch each letter on graph paper first and keep letters
@@ -62,7 +90,7 @@ class TurtleWriter(Node):
         # TODO 1: subscribe to the turtle's pose.
         #   Topic: '/turtle1/pose', message type: Pose (already imported),
         #   callback: self.pose_callback, queue size: 10.
-        self.sub = None  # <-- replace this
+        self.sub = self.create_subscription(Pose, '/turtle1/pose', self.pose_callback, 10)  # <-- replace this
 
         self.pose = None      # latest Pose message (None until one arrives)
         self.target_idx = 0   # which waypoint we are driving to
@@ -90,8 +118,11 @@ class TurtleWriter(Node):
         #                   (our position: self.pose.x, self.pose.y)
         #   dist          : Euclidean distance, math.sqrt(dx**2 + dy**2)
         #   heading_error : normalize_angle(math.atan2(dy, dx) - self.pose.theta)
-        dist = 0.0           # <-- replace this
-        heading_error = 0.0  # <-- replace this
+        dx = gx - self.pose.x
+        dy = gy - self.pose.y
+        # print(dx, dy)
+        dist = math.sqrt(dx**2 + dy**2)   # <-- replace this
+        heading_error = normalize_angle(math.atan2(dy, dx) - self.pose.theta)  # <-- replace this
 
         # TODO 3: proportional control - turn toward the goal, drive when
         # roughly facing it.
@@ -100,12 +131,15 @@ class TurtleWriter(Node):
         #                   else 0.0       (turn in place first)
         msg = Twist()
         # ... your two lines here ...
-        self.pub.publish(msg)
+        msg.angular.z = K_ANG * heading_error
+        msg.linear.x  = K_LIN * dist   if abs(heading_error) < 0.5 else 0.0      
 
         # Reached the waypoint? Move on to the next one.
         if dist < GOAL_TOL:
             self.get_logger().info(f'Reached waypoint {self.target_idx}: ({gx}, {gy})')
             self.target_idx += 1
+
+        self.pub.publish(msg)
 
 
 def main(args=None):

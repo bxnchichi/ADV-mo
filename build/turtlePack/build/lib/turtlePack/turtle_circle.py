@@ -24,7 +24,7 @@ class TurtleCircle(Node):
         # TODO 1: create a publisher of Twist messages.
         #   Which topic does the turtle listen on? You found it in Lab 2
         #   with 'ros2 topic list -t'. Queue size 10.
-        self.publisher_ = None  # <-- replace this
+        self.publisher_ = self.create_publisher(Twist, 'turtle1/cmd_vel', 10)  # <-- replace this
 
         # Publish 10 times per second - a steady stream, like teleop does.
         self.timer = self.create_timer(0.1, self.timer_callback)
@@ -35,9 +35,12 @@ class TurtleCircle(Node):
         #   msg.linear.x  = forward speed (m/s)
         #   msg.angular.z = turning speed (rad/s)
         #   Use the circle values you found in Lab 2, Checkpoint 4.
+        msg.linear.x = 2.0  # forward speed
+        msg.angular.z = 6.28  # turning speed
+
 
         # TODO 3: publish the message.
-
+        self.publisher_.publish(msg)
         pass  # delete this line when you are done
 
 
@@ -57,6 +60,7 @@ if __name__ == '__main__':
     main()
 
 
-# BONUS (if you finish early): make the turtle drive a figure-eight.
+# B ONUS (if you finish early): make the turtle drive a figure-eight.
 # Hint: count timer ticks (self.tick += 1) and flip the sign of
 # msg.angular.z every few seconds, e.g. when (self.tick // 50) % 2 changes.
+ 

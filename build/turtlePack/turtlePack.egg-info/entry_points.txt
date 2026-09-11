@@ -1,3 +1,5 @@
 [console_scripts]
 listener = turtlePack.listener:main
 talker = turtlePack.talker:main
+turtle_circle = turtlePack.turtle_circle:main
+turtle_writer = turtlePack.turtle_writer:main
