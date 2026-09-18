@@ -1,5 +1,7 @@
 [console_scripts]
+adder_server = turtlePack.adder_server:main
 listener = turtlePack.listener:main
+pen_writer = turtlePack.pen_writer:main
 talker = turtlePack.talker:main
 turtle_circle = turtlePack.turtle_circle:main
 turtle_writer = turtlePack.turtle_writer:main

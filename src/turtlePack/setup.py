@@ -1,4 +1,8 @@
 from setuptools import find_packages, setup
+import os
+from glob import glob
+
+(os.path)
 
 package_name = 'turtlePack'
 
@@ -23,7 +27,9 @@ setup(
             'talker = turtlePack.talker:main',
             'listener = turtlePack.listener:main',
             'turtle_circle = turtlePack.turtle_circle:main',
-            'turtle_writer = turtlePack.turtle_writer:main'
+            'turtle_writer = turtlePack.turtle_writer:main',
+            'pen_writer = turtlePack.pen_writer:main',
+            'adder_server = turtlePack.adder_server:main', 
         ],
     },
 )

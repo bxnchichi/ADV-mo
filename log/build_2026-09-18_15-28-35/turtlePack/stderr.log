@@ -1,0 +1,4 @@
+/home/bxnchxchi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/home/bxnchxchi/4sem1/ADV-mo/install/turtlePack/lib/python3.10/site-packages/turtlePack/turtle_writer.py:46: SyntaxWarning: 'tuple' object is not callable; perhaps you missed a comma?
+  (6, 5.5)
