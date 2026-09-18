@@ -1,0 +1,7 @@
+[console_scripts]
+adder_server = try.adder_server:main
+listener = try.listener:main
+pen_writer = try.pen_writer:main
+talker = try.talker:main
+turtle_circle = try.turtle_circle:main
+turtle_writer = try.turtle_writer:main

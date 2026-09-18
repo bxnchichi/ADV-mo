@@ -35,13 +35,30 @@ def generate_launch_description():
         Node(
             package='turtlesim',
             executable='turtlesim_node',
-            name='turtlesim',
+            name='sim',
+            parameters=[{
+                'background_r': 30,
+                'background_g': 60,
+                'background_b': 120
+            }],
+            # remappings= [('/turtle1/cmd_vel', '/cmd_vel')]
+
         ),
 
         # TODO 1: add a second Node entry that starts YOUR pen_writer
         #   (package 'my_first_pkg', executable 'pen_writer').
-
+        Node(
+            package='turtlePack',
+            executable='pen_writer_teleport',
+            # remappings= [('/turtle1/cmd_vel', '/cmd_vel')]
+        ),
         # TODO 2 (after TODO 1 works): can you also start your
         #   adder_server here? How many nodes does 'ros2 node list'
         #   show after one launch command?
+        Node(
+            package='turtlePack',
+            executable='adder_server'
+        )
+
     ])
+

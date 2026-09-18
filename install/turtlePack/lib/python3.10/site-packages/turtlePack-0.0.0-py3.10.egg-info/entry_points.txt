@@ -1,7 +1,10 @@
 [console_scripts]
 adder_server = turtlePack.adder_server:main
+chaser = turtlePack.chaser:main
 listener = turtlePack.listener:main
 pen_writer = turtlePack.pen_writer:main
+pen_writer_teleport = turtlePack.pen_writer_teleport:main
 talker = turtlePack.talker:main
+tunable_writer = turtlePack.tunable_writer:main
 turtle_circle = turtlePack.turtle_circle:main
 turtle_writer = turtlePack.turtle_writer:main

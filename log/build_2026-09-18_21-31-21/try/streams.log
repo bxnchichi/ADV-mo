@@ -1,0 +1,24 @@
+[0.794s] Invoking command in '/home/bxnchxchi/4sem1/ADV-mo/src/try': PYTHONPATH=/home/bxnchxchi/4sem1/ADV-mo/build/try/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/try build --build-base /home/bxnchxchi/4sem1/ADV-mo/build/try/build install --record /home/bxnchxchi/4sem1/ADV-mo/build/try/install.log --single-version-externally-managed install_data
+[0.941s] /home/bxnchxchi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.941s]   warnings.warn(msg)
+[1.032s] running egg_info
+[1.047s] writing ../../build/try/try.egg-info/PKG-INFO
+[1.048s] writing dependency_links to ../../build/try/try.egg-info/dependency_links.txt
+[1.048s] writing requirements to ../../build/try/try.egg-info/requires.txt
+[1.048s] writing top-level names to ../../build/try/try.egg-info/top_level.txt
+[1.079s] reading manifest file '../../build/try/try.egg-info/SOURCES.txt'
+[1.080s] writing manifest file '../../build/try/try.egg-info/SOURCES.txt'
+[1.080s] running build
+[1.080s] running build_py
+[1.080s] copying try/__init__.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.080s] running install
+[1.084s] running install_lib
+[1.099s] running install_data
+[1.099s] copying resource/try -> /home/bxnchxchi/4sem1/ADV-mo/install/try/share/ament_index/resource_index/packages
+[1.099s] copying package.xml -> /home/bxnchxchi/4sem1/ADV-mo/install/try/share/try
+[1.099s] running install_egg_info
+[1.115s] removing '/home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages/try-0.0.0-py3.10.egg-info' (and everything under it)
+[1.115s] Copying ../../build/try/try.egg-info to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages/try-0.0.0-py3.10.egg-info
+[1.116s] running install_scripts
+[1.235s] writing list of installed files to '/home/bxnchxchi/4sem1/ADV-mo/build/try/install.log'
+[1.262s] Invoked command in '/home/bxnchxchi/4sem1/ADV-mo/src/try' returned '0': PYTHONPATH=/home/bxnchxchi/4sem1/ADV-mo/build/try/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/try build --build-base /home/bxnchxchi/4sem1/ADV-mo/build/try/build install --record /home/bxnchxchi/4sem1/ADV-mo/build/try/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[0.778s] Invoking command in '/home/bxnchxchi/4sem1/ADV-mo/src/try': PYTHONPATH=/home/bxnchxchi/4sem1/ADV-mo/build/try/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/try build --build-base /home/bxnchxchi/4sem1/ADV-mo/build/try/build install --record /home/bxnchxchi/4sem1/ADV-mo/build/try/install.log --single-version-externally-managed install_data
+[0.906s] /home/bxnchxchi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.906s]   warnings.warn(msg)
+[0.997s] running egg_info
+[1.012s] writing ../../build/try/try.egg-info/PKG-INFO
+[1.012s] writing dependency_links to ../../build/try/try.egg-info/dependency_links.txt
+[1.012s] writing entry points to ../../build/try/try.egg-info/entry_points.txt
+[1.012s] writing requirements to ../../build/try/try.egg-info/requires.txt
+[1.012s] writing top-level names to ../../build/try/try.egg-info/top_level.txt
+[1.044s] reading manifest file '../../build/try/try.egg-info/SOURCES.txt'
+[1.045s] writing manifest file '../../build/try/try.egg-info/SOURCES.txt'
+[1.045s] running build
+[1.045s] running build_py
+[1.045s] copying try/listener.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.045s] copying try/turtle_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.046s] copying try/talker.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.046s] copying try/__init__.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.046s] copying try/pen_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.046s] copying try/turtle_circle.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.046s] copying try/adder_server.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.046s] running install
+[1.050s] running install_lib
+[1.066s] running install_data
+[1.066s] copying resource/try -> /home/bxnchxchi/4sem1/ADV-mo/install/try/share/ament_index/resource_index/packages
+[1.066s] copying package.xml -> /home/bxnchxchi/4sem1/ADV-mo/install/try/share/try
+[1.066s] running install_egg_info
+[1.082s] removing '/home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages/try-0.0.0-py3.10.egg-info' (and everything under it)
+[1.082s] Copying ../../build/try/try.egg-info to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages/try-0.0.0-py3.10.egg-info
+[1.083s] running install_scripts
+[1.202s] Installing adder_server script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.202s] Installing listener script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.203s] Installing pen_writer script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.203s] Installing talker script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.203s] Installing turtle_circle script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.203s] Installing turtle_writer script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.203s] writing list of installed files to '/home/bxnchxchi/4sem1/ADV-mo/build/try/install.log'
+[1.228s] Invoked command in '/home/bxnchxchi/4sem1/ADV-mo/src/try' returned '0': PYTHONPATH=/home/bxnchxchi/4sem1/ADV-mo/build/try/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/try build --build-base /home/bxnchxchi/4sem1/ADV-mo/build/try/build install --record /home/bxnchxchi/4sem1/ADV-mo/build/try/install.log --single-version-externally-managed install_data

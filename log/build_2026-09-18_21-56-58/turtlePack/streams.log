@@ -1,0 +1,26 @@
+[0.973s] Invoking command in '/home/bxnchxchi/4sem1/ADV-mo/src/turtlePack': PYTHONPATH=/home/bxnchxchi/4sem1/ADV-mo/build/turtlePack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bxnchxchi/4sem1/ADV-mo/install/turtlePack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlePack build --build-base /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack/build install --record /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack/install.log --single-version-externally-managed install_data
+[1.106s] /home/bxnchxchi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.106s]   warnings.warn(msg)
+[1.199s] running egg_info
+[1.215s] writing ../../build/turtlePack/turtlePack.egg-info/PKG-INFO
+[1.216s] writing dependency_links to ../../build/turtlePack/turtlePack.egg-info/dependency_links.txt
+[1.216s] deleting ../../build/turtlePack/turtlePack.egg-info/entry_points.txt
+[1.216s] writing requirements to ../../build/turtlePack/turtlePack.egg-info/requires.txt
+[1.216s] writing top-level names to ../../build/turtlePack/turtlePack.egg-info/top_level.txt
+[1.253s] reading manifest file '../../build/turtlePack/turtlePack.egg-info/SOURCES.txt'
+[1.255s] writing manifest file '../../build/turtlePack/turtlePack.egg-info/SOURCES.txt'
+[1.255s] running build
+[1.255s] running build_py
+[1.255s] copying turtlePack/__init__.py -> /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack/build/lib/turtlePack
+[1.256s] running install
+[1.260s] running install_lib
+[1.279s] copying /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack/build/lib/turtlePack/__init__.py -> /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack/lib/python3.10/site-packages/turtlePack
+[1.280s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack/lib/python3.10/site-packages/turtlePack/__init__.py to __init__.cpython-310.pyc
+[1.280s] running install_data
+[1.280s] copying resource/turtlePack -> /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack/share/ament_index/resource_index/packages
+[1.281s] copying package.xml -> /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack/share/turtlePack
+[1.281s] running install_egg_info
+[1.298s] removing '/home/bxnchxchi/4sem1/ADV-mo/install/turtlePack/lib/python3.10/site-packages/turtlePack-0.0.0-py3.10.egg-info' (and everything under it)
+[1.299s] Copying ../../build/turtlePack/turtlePack.egg-info to /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack/lib/python3.10/site-packages/turtlePack-0.0.0-py3.10.egg-info
+[1.299s] running install_scripts
+[1.439s] writing list of installed files to '/home/bxnchxchi/4sem1/ADV-mo/build/turtlePack/install.log'

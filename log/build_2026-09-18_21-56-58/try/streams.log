@@ -1,0 +1,36 @@
+[0.978s] Invoking command in '/home/bxnchxchi/4sem1/ADV-mo/src/try': PYTHONPATH=/home/bxnchxchi/4sem1/ADV-mo/build/try/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/try build --build-base /home/bxnchxchi/4sem1/ADV-mo/build/try/build install --record /home/bxnchxchi/4sem1/ADV-mo/build/try/install.log --single-version-externally-managed install_data
+[1.110s] /home/bxnchxchi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.110s]   warnings.warn(msg)
+[1.202s] running egg_info
+[1.217s] writing ../../build/try/try.egg-info/PKG-INFO
+[1.218s] writing dependency_links to ../../build/try/try.egg-info/dependency_links.txt
+[1.218s] writing entry points to ../../build/try/try.egg-info/entry_points.txt
+[1.218s] writing requirements to ../../build/try/try.egg-info/requires.txt
+[1.218s] writing top-level names to ../../build/try/try.egg-info/top_level.txt
+[1.250s] reading manifest file '../../build/try/try.egg-info/SOURCES.txt'
+[1.251s] writing manifest file '../../build/try/try.egg-info/SOURCES.txt'
+[1.251s] running build
+[1.251s] running build_py
+[1.251s] copying try/listener.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.251s] copying try/turtle_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.251s] copying try/talker.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.252s] copying try/__init__.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.252s] copying try/pen_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.252s] copying try/turtle_circle.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.252s] copying try/adder_server.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+[1.252s] running install
+[1.256s] running install_lib
+[1.272s] running install_data
+[1.272s] copying resource/try -> /home/bxnchxchi/4sem1/ADV-mo/install/try/share/ament_index/resource_index/packages
+[1.272s] copying package.xml -> /home/bxnchxchi/4sem1/ADV-mo/install/try/share/try
+[1.272s] running install_egg_info
+[1.289s] removing '/home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages/try-0.0.0-py3.10.egg-info' (and everything under it)
+[1.289s] Copying ../../build/try/try.egg-info to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages/try-0.0.0-py3.10.egg-info
+[1.289s] running install_scripts
+[1.415s] Installing adder_server script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.416s] Installing listener script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.416s] Installing pen_writer script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.416s] Installing talker script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.416s] Installing turtle_circle script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.416s] Installing turtle_writer script to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/try
+[1.416s] writing list of installed files to '/home/bxnchxchi/4sem1/ADV-mo/build/try/install.log'

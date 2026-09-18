@@ -38,33 +38,36 @@ from turtlesim.srv import SetPen
 # ---------------------------------------------------------------------------
 
 
+start_x = 4.5
+start_y = 2
+
 WAYPOINTS = [
     # B
-    (5.5, 5.5, False), 
-    (5.5, 6.5, True),
-    (4.25, 6.5, True),
-    (5.25, 6.5, False),
-    (5.25, 7.5, True),
-    (4.25, 7.5, True),
-    (4.25, 5.5, True),
-    (5.5, 5.5, True),
+    (start_x, start_y, False),
+    (start_x, start_y + 1, True),
+    (start_x - 1.25, start_y + 1, True),
+    (start_x - 0.25, start_y + 1, False),
+    (start_x - 0.25, start_y + 2, True),
+    (start_x - 1.25, start_y + 2, True),
+    (start_x - 1.25, start_y, True),
+    (start_x, start_y, True),
 
     # E
-    (6, 5.5, False),
-    (6, 7.5, True),
-    (7, 7.5, True),
-    (6, 7.5, False),
-    (6, 6.5, False),
-    (7, 6.5, True),
-    (6, 6.5, False),
-    (6, 5.5, False),
-    (7, 5.5, True),
+    (start_x + 0.5, start_y, False),
+    (start_x + 0.5, start_y + 2, True),
+    (start_x + 1.5, start_y + 2, True),
+    (start_x + 0.5, start_y + 2, False),
+    (start_x + 0.5, start_y + 1, False),
+    (start_x + 1.5, start_y + 1, True),
+    (start_x + 0.5, start_y + 1, False),
+    (start_x + 0.5, start_y, False),
+    (start_x + 1.5, start_y, True),
 
     # N
-    (7.5, 5.5, False),
-    (7.5, 7.5, True),
-    (8.5, 5.5, True),
-    (8.5, 7.5, True), 
+    (start_x + 2, start_y, False),
+    (start_x + 2, start_y + 2, True),
+    (start_x + 3, start_y, True),
+    (start_x + 3, start_y + 2, True), 
 
 ]
 
@@ -104,6 +107,8 @@ class PenWriter(Node):
         self.pen_is_down = None   # unknown until we set it once
 
         self.timer = self.create_timer(0.05, self.control_loop)
+        self.start_time = self.get_clock().now()
+
 
     def pose_callback(self, msg):
         self.pose = msg
@@ -123,6 +128,9 @@ class PenWriter(Node):
 
         self.pen_is_down = down
         self.get_logger().info(f'pen {"down" if down else "up"}')
+
+    # def teleport(self, x, y):
+    #     self.get_logger().info
 
     def control_loop(self):
         if self.pose is None:
@@ -148,7 +156,8 @@ class PenWriter(Node):
         self.pub.publish(msg)
 
         if dist < GOAL_TOL:
-            self.get_logger().info(f'reached waypoint {self.target_idx}')
+            t = self.get_clock().now() - self.start_time
+            self.get_logger().info(f'reached waypoint {self.target_idx} at {t}')
             self.target_idx += 1
 
 

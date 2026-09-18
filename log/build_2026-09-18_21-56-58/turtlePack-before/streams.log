@@ -1,0 +1,44 @@
+[0.973s] Invoking command in '/home/bxnchxchi/4sem1/ADV-mo/src/turtlePack-backup': PYTHONPATH=/home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlePack-before build --build-base /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build install --record /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/install.log --single-version-externally-managed install_data
+[1.104s] /home/bxnchxchi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.104s]   warnings.warn(msg)
+[1.196s] running egg_info
+[1.210s] creating ../../build/turtlePack-before/turtlePack_before.egg-info
+[1.211s] writing ../../build/turtlePack-before/turtlePack_before.egg-info/PKG-INFO
+[1.211s] writing dependency_links to ../../build/turtlePack-before/turtlePack_before.egg-info/dependency_links.txt
+[1.211s] writing entry points to ../../build/turtlePack-before/turtlePack_before.egg-info/entry_points.txt
+[1.211s] writing requirements to ../../build/turtlePack-before/turtlePack_before.egg-info/requires.txt
+[1.211s] writing top-level names to ../../build/turtlePack-before/turtlePack_before.egg-info/top_level.txt
+[1.212s] writing manifest file '../../build/turtlePack-before/turtlePack_before.egg-info/SOURCES.txt'
+[1.244s] reading manifest file '../../build/turtlePack-before/turtlePack_before.egg-info/SOURCES.txt'
+[1.245s] writing manifest file '../../build/turtlePack-before/turtlePack_before.egg-info/SOURCES.txt'
+[1.245s] running build
+[1.245s] running build_py
+[1.245s] creating /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack
+[1.245s] copying turtlePack/listener.py -> /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack
+[1.245s] copying turtlePack/turtle_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack
+[1.246s] copying turtlePack/talker.py -> /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack
+[1.246s] copying turtlePack/__init__.py -> /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack
+[1.246s] copying turtlePack/pen_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack
+[1.246s] copying turtlePack/turtle_circle.py -> /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack
+[1.246s] copying turtlePack/adder_server.py -> /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack
+[1.247s] running install
+[1.250s] running install_lib
+[1.266s] creating /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack
+[1.266s] copying /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack/listener.py -> /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack
+[1.266s] copying /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack/turtle_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack
+[1.266s] copying /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack/talker.py -> /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack
+[1.266s] copying /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack/__init__.py -> /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack
+[1.266s] copying /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack/pen_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack
+[1.267s] copying /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack/turtle_circle.py -> /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack
+[1.267s] copying /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build/lib/turtlePack/adder_server.py -> /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack
+[1.267s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack/listener.py to listener.cpython-310.pyc
+[1.268s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack/turtle_writer.py to turtle_writer.cpython-310.pyc
+[1.268s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack/talker.py to talker.cpython-310.pyc
+[1.269s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack/__init__.py to __init__.cpython-310.pyc
+[1.269s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack/pen_writer.py to pen_writer.cpython-310.pyc
+[1.270s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack/turtle_circle.py to turtle_circle.cpython-310.pyc
+[1.270s] byte-compiling /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages/turtlePack/adder_server.py to adder_server.cpython-310.pyc
+[1.270s] running install_data
+[1.271s] creating /home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/share/ament_index/resource_index/packages
+[1.271s] error: can't copy 'resource/turtlePack-before': doesn't exist or not a regular file
+[1.289s] Invoked command in '/home/bxnchxchi/4sem1/ADV-mo/src/turtlePack-backup' returned '1': PYTHONPATH=/home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bxnchxchi/4sem1/ADV-mo/install/turtlePack-before/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlePack-before build --build-base /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/build install --record /home/bxnchxchi/4sem1/ADV-mo/build/turtlePack-before/install.log --single-version-externally-managed install_data

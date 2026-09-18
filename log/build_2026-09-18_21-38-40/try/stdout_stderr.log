@@ -1,0 +1,29 @@
+/home/bxnchxchi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/try/try.egg-info/PKG-INFO
+writing dependency_links to ../../build/try/try.egg-info/dependency_links.txt
+deleting ../../build/try/try.egg-info/entry_points.txt
+writing requirements to ../../build/try/try.egg-info/requires.txt
+writing top-level names to ../../build/try/try.egg-info/top_level.txt
+reading manifest file '../../build/try/try.egg-info/SOURCES.txt'
+writing manifest file '../../build/try/try.egg-info/SOURCES.txt'
+running build
+running build_py
+copying try/listener.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+copying try/turtle_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+copying try/talker.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+copying try/__init__.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+copying try/pen_writer.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+copying try/turtle_circle.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+copying try/adder_server.py -> /home/bxnchxchi/4sem1/ADV-mo/build/try/build/lib/try
+running install
+running install_lib
+running install_data
+copying resource/try -> /home/bxnchxchi/4sem1/ADV-mo/install/try/share/ament_index/resource_index/packages
+copying package.xml -> /home/bxnchxchi/4sem1/ADV-mo/install/try/share/try
+running install_egg_info
+removing '/home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages/try-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/try/try.egg-info to /home/bxnchxchi/4sem1/ADV-mo/install/try/lib/python3.10/site-packages/try-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/bxnchxchi/4sem1/ADV-mo/build/try/install.log'

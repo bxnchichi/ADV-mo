@@ -9,9 +9,8 @@
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
-  <depend>geometry_msgs</depend>
-  <depend>turtlesim</depend>
-  <depend>example_interfaces<depend>
+  <depend>geometry_ms</depend>
+  <depend>example_interfaces</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

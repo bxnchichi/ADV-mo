@@ -2,8 +2,6 @@ from setuptools import find_packages, setup
 import os
 from glob import glob
 
-(os.path)
-
 package_name = 'turtlePack'
 
 setup(
@@ -14,6 +12,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'),
+        glob(os.path.join('launch', '*launch.py'))),        
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -29,7 +29,10 @@ setup(
             'turtle_circle = turtlePack.turtle_circle:main',
             'turtle_writer = turtlePack.turtle_writer:main',
             'pen_writer = turtlePack.pen_writer:main',
+            'pen_writer_teleport = turtlePack.pen_writer_teleport:main',
             'adder_server = turtlePack.adder_server:main', 
+            'tunable_writer = turtlePack.tunable_writer:main',
+            'chaser = turtlePack.chaser:main',
         ],
     },
 )
